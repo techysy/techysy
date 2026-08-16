@@ -7,20 +7,18 @@
 
 ## 🚀 核心项目 / Featured Projects
 
-### 💬 Hermes 飞书流式卡片插件
+### ⭐ 主推项目
 
-> [**hermes-lark-streaming**](https://github.com/techysy/hermes-lark-streaming) — Hermes Gateway 飞书流式卡片插件（CardKit v2.0）
+> [**DeepSeek Harness (dsh)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek Harness 官方 Agent 浏览器 UI 的 fnOS 应用
 >
-> AI 回复**实时流式显示**在飞书交互卡片中 · 打字机效果 · 思考/工具/回答按事件渲染
+> 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
-> [![PyPI](https://img.shields.io/badge/python-%E2%89%A53.11-blue)](https://www.python.org/)
-> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/techysy/hermes-lark-streaming/blob/main/LICENSE)
+> [![Release](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos)](https://github.com/techysy/deepseek-harness-fnos/releases)
 
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
 | 项目 | 版本 | 说明 |
 |------|------|------|
-| [**DeepSeek Harness (dsh)**](https://github.com/techysy/deepseek-harness-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos) | DeepSeek 官方 Agent 浏览器 UI · 本地常驻服务 |
 | [**9Router**](https://github.com/techysy/9router-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/9router-fnos) | FREE AI Router & Token Saver · 飞牛 NAS |
 | [**Hermes Agent**](https://github.com/techysy/hermes-dashboard-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-dashboard-fnos) | Hermes 控制台快捷入口 · 可配置目标仪表盘 |
 | [**Hugo Blog**](https://github.com/techysy/hugo-blog-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hugo-blog-fnos) | Hugo 静态博客 · 常驻渲染 · 管理面板 |
@@ -35,6 +33,7 @@
 | [**yangyu-hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | 🐟 Hermes Agent 技能集合（12 个技能：Git 生命周期、飞书渲染、TTS、9Router 货币等） |
 | [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
 | [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
+| [**hermes-lark-streaming**](https://github.com/techysy/hermes-lark-streaming) | 飞书流式卡片插件（fork，CardKit v2.0） |
 
 ### 🛠️ 开源工具 & 其他
 
