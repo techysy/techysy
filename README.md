@@ -7,18 +7,11 @@
 
 ## 🚀 核心项目 / Featured Projects
 
-### ⭐ 主推项目
-
-> [**DeepSeek Harness (dsh)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek Harness 官方 Agent 浏览器 UI 的 fnOS 应用
->
-> 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
->
-> [![Release](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos)](https://github.com/techysy/deepseek-harness-fnos/releases)
-
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
 | 项目 | 版本 | 说明 |
 |------|------|------|
+| [**DeepSeek Harness (dsh)**](https://github.com/techysy/deepseek-harness-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos) | DeepSeek 官方 Agent 浏览器 UI · 本地常驻服务 |
 | [**9Router**](https://github.com/techysy/9router-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/9router-fnos) | FREE AI Router & Token Saver · 飞牛 NAS |
 | [**Hermes Agent**](https://github.com/techysy/hermes-dashboard-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-dashboard-fnos) | Hermes 控制台快捷入口 · 可配置目标仪表盘 |
 | [**Hugo Blog**](https://github.com/techysy/hugo-blog-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hugo-blog-fnos) | Hugo 静态博客 · 常驻渲染 · 管理面板 |
