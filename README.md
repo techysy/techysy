@@ -14,6 +14,7 @@
 > 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
 > [![Release](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos)](https://github.com/techysy/deepseek-harness-fnos/releases)
+> [![Node.js](https://img.shields.io/badge/Node.js-v24-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
