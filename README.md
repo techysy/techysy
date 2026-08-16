@@ -13,7 +13,7 @@
 >
 > 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
-> [![fnOS](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=🐮%20fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
+> [![fnOS](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAACoUlEQVR42t2VO2hUURCGvzl77t1dc42bYNykSUjS2EhECYKKIj7AQkWbFGolCJaCYGNjp4X2gpWKjeADCwtBsZFYBdFGDT4C2WhI2CRuNnt37z1jsWajeexG0UIHTnUO%2F39m5p9%2FZOu5d8pfDMNfjv%2BUwP1GV5wDaUSggCo0JQ36CySqsDZtiLWKsSyBESiGjqPbmuls8wgjRWQVJRAoVRzdWZ8j%2FWsplhzGLCIQgTBSutp8BnZmeDsaYqSakjHUJVLAs8LwWMiJ3S10tHqUI62Va4GgonRv8OjJeuztC0j7BmOgMOcIK0olXv5EsVIqK9s3rqEn69PV5lGuLGRv52voW2FsKiJhhEsn2rnzfJrzNz5zck%2BGgR0ZmpICSPVnsigFgc71Hk5hfDrCS0itFzWClCcM50Iu3P7C8V0Znrwq0Nvhc3EgS1hRvkxHWFPFS4j8ROKc8nqkxM1nU3war7AmKTUl2h%2BlmfYNdweneTQ0Q2FO2d8XoApXH05w%2FfEkLYHFOSiWHfF3BOfA94SkFcqR0pQyP8ncLm5YkDYYwIjitNofVUgYIeUZCqWYw%2F3NHNwSkDBC2jeMTJS58mACz%2BoSedtlB8YslaKqkJ%2BNmSnGnNydYVNXimLoePmxxL3BGYqhw7NL5WZXO0xJTzi1r4UgZWjPWCa%2FRhy7PEIuH5G0kF5hOOsSzL%2FPF2J6233OHlpfuxt6P8fUbExrUAVeyV5sPXD7vVS97T6%2BV23irWd57r%2BYoRgqxlTVUs9W7Ere4iWEsXwEwOkDrbW7XD5i6EOJbMZiEzT0LLuSm6Z84U0u5My1UTZ3p1GFcqQ8fTXLhnW2pq5GIfVWpgjMho5KtPAkSBmsEVZrtraRDQcpM28Qtan9lXVhV7NIQP%2Bxlfkn4xtRvyXiDydYXAAAAABJRU5ErkJggg%3D%3D)](https://github.com/techysy/deepseek-harness-fnos/releases)
 > [![上游版本](https://img.shields.io/badge/upstream-v0.1.0--rc.6-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
 > [![Node.js](https://img.shields.io/badge/Node.js-v24-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 
