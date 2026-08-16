@@ -19,6 +19,15 @@
 | [**MetaCubeXD**](https://github.com/techysy/metacubexd-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/metacubexd-fnos) | Mihomo Dashboard |
 | [**Strava Panel**](https://github.com/techysy/strava-panel-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/strava-panel-fnos) | 骑行数据面板 · 凭据 + Token 刷新 + 统计 |
 
+### 💬 Hermes 飞书流式卡片插件
+
+> [**hermes-lark-streaming**](https://github.com/techysy/hermes-lark-streaming) — Hermes Gateway 飞书流式卡片插件（CardKit v2.0）
+>
+> AI 回复**实时流式显示**在飞书交互卡片中 · 打字机效果 · 思考/工具/回答按事件渲染
+>
+> [![PyPI](https://img.shields.io/badge/python-%E2%89%A53.11-blue)](https://www.python.org/)
+> [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/techysy/hermes-lark-streaming/blob/main/LICENSE)
+
 ### 🤖 Hermes Agent 技能 & 工具
 
 | 项目 | 说明 |
@@ -26,7 +35,6 @@
 | [**yangyu-hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | 🐟 Hermes Agent 技能集合（12 个技能：Git 生命周期、飞书渲染、TTS、9Router 货币等） |
 | [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
 | [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
-| [**hermes-lark-streaming**](https://github.com/techysy/hermes-lark-streaming) | 飞书流式卡片插件（fork，CardKit v2.0） |
 
 ### 🛠️ 开源工具 & 其他
 
