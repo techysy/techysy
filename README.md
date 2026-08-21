@@ -34,7 +34,7 @@
 | 项目 | 说明 |
 |------|------|
 | [**yangyu-hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | 🐟 Hermes Agent 技能集合（8 个技能：Git 生命周期、飞书、TTS/STT、代理、成本管理等） |
-| [**hermes-lark-streaming**](https://github.com/techysy/hermes-lark-streaming) | 💬 Hermes 飞书流式卡片插件（CardKit v2.0，正在使用中） |
+| [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | 🍟 Hermes 飞书流式卡片插件（CardKit v2.0，正在使用中） |
 | [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
 | [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
 
