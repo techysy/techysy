@@ -31,12 +31,12 @@
 
 ### 🤖 Hermes Agent 技能 & 工具
 
-| 项目 | 说明 |
-|------|------|
-| [**yangyu-hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | 🐟 Hermes Agent 技能集合（8 个技能：Git 生命周期、飞书、TTS/STT、代理、成本管理等） |
-| [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | 🍟 Hermes 飞书流式卡片插件（CardKit v2.0，正在使用中） |
-| [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
-| [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
+| 项目 | 版本 | 说明 |
+|------|------|------|
+| [**yangyu-hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | — | 🐟 Hermes Agent 技能集合（8 个技能：Git 生命周期、飞书、TTS/STT、代理、成本管理等） |
+| [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-fry-cards?display_latest_prerelease=true&include_prereleases) | 🍟 Hermes 飞书流式卡片插件（CardKit v2.0，正在使用中） |
+| [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
+| [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
 
 ### 🛠️ 开源工具 & 其他
 
