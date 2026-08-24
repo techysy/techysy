@@ -14,7 +14,7 @@
 > 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
 > [![fnOS 版本](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
-> [![上游版本](https://img.shields.io/badge/upstream-v0.1.0--rc.6-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
+> [![上游版本](https://img.shields.io/badge/upstream-v0.1.1--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
 > [![Node.js](https://img.shields.io/badge/Node.js-v24-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 > [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
 
