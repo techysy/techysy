@@ -22,7 +22,7 @@
 
 | 项目 | 版本 | 说明 |
 |------|------|------|
-| [**9Router**](https://github.com/techysy/9router-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/9router-fnos) | FREE AI Router & Token Saver · 飞牛 NAS |
+| [**10Router**](https://github.com/techysy/10router) | ![Release](https://img.shields.io/github/v/release/techysy/10router) | FREE AI Router & Token Saver · 飞牛 NAS |
 | [**Hermes Agent**](https://github.com/techysy/hermes-dashboard-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-dashboard-fnos) | Hermes 控制台快捷入口 · 可配置目标仪表盘 |
 | [**Hugo Blog**](https://github.com/techysy/hugo-blog-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hugo-blog-fnos) | Hugo 静态博客 · 常驻渲染 · 管理面板 |
 | [**Mihomo Core**](https://github.com/techysy/mihomo-core-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/mihomo-core-fnos) | Mihomo 内核 fnOS 应用 |
