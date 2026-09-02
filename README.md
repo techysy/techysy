@@ -52,6 +52,14 @@
 
 ![Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=techysy&theme=default)
 
+### ⭐ Star Top 10
+
+![Star Top 10](assets/stars-top10.svg)
+
+### 📝 Commit Top 10
+
+![Commit Top 10](assets/commits-top10.svg)
+
 ---
 
 ## 🌐 我的博客 / Blog
