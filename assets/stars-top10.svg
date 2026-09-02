@@ -1,85 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" font-family="-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial,'PingFang SC','Microsoft YaHei',sans-serif">
 <rect width="1000" height="1000" fill="#ffffff"/>
-<text x="500.0" y="64" font-size="40" font-weight="700" fill="#1a1a1a" text-anchor="middle">★ Star Top 10</text>
-<text x="500.0" y="104" font-size="22" fill="#888888" text-anchor="middle">@techysy 自有项目累计 Star · 截至 2026-09-02 · 数据: GitHub API</text>
+<text x="500.0" y="64" font-size="40" font-weight="700" fill="#1a1a1a" text-anchor="middle">★ Star Top 10 · 最近半年</text>
+<text x="500.0" y="104" font-size="22" fill="#888888" text-anchor="middle">@techysy 自有项目窗口内新增 Star · 2026.3.2 – 2026-09-02 · 仅统计最近半年</text>
 <line x1="110" y1="710.0" x2="960" y2="710.0" stroke="#e8e8e8" stroke-width="1"/>
 <text x="96" y="717.0" font-size="21" fill="#666666" text-anchor="end">0</text>
-<line x1="110" y1="565.0" x2="960" y2="565.0" stroke="#e8e8e8" stroke-width="1"/>
-<text x="96" y="572.0" font-size="21" fill="#666666" text-anchor="end">50</text>
-<line x1="110" y1="420.0" x2="960" y2="420.0" stroke="#e8e8e8" stroke-width="1"/>
-<text x="96" y="427.0" font-size="21" fill="#666666" text-anchor="end">100</text>
-<line x1="110" y1="275.0" x2="960" y2="275.0" stroke="#e8e8e8" stroke-width="1"/>
-<text x="96" y="282.0" font-size="21" fill="#666666" text-anchor="end">150</text>
+<line x1="110" y1="516.7" x2="960" y2="516.7" stroke="#e8e8e8" stroke-width="1"/>
+<text x="96" y="523.7" font-size="21" fill="#666666" text-anchor="end">10</text>
+<line x1="110" y1="323.3" x2="960" y2="323.3" stroke="#e8e8e8" stroke-width="1"/>
+<text x="96" y="330.3" font-size="21" fill="#666666" text-anchor="end">20</text>
 <line x1="110" y1="130.0" x2="960" y2="130.0" stroke="#e8e8e8" stroke-width="1"/>
-<text x="96" y="137.0" font-size="21" fill="#666666" text-anchor="end">200</text>
-<line x1="237.5" y1="710" x2="237.5" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="237.5" y="744" font-size="21" fill="#666666" text-anchor="middle">2021年</text>
-<line x1="237.5" y1="130" x2="237.5" y2="710" stroke="#f2f2f2" stroke-width="1"/>
-<line x1="364.9" y1="710" x2="364.9" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="364.9" y="744" font-size="21" fill="#666666" text-anchor="middle">2022年</text>
-<line x1="364.9" y1="130" x2="364.9" y2="710" stroke="#f2f2f2" stroke-width="1"/>
-<line x1="492.2" y1="710" x2="492.2" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="492.2" y="744" font-size="21" fill="#666666" text-anchor="middle">2023年</text>
-<line x1="492.2" y1="130" x2="492.2" y2="710" stroke="#f2f2f2" stroke-width="1"/>
-<line x1="619.6" y1="710" x2="619.6" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="619.6" y="744" font-size="21" fill="#666666" text-anchor="middle">2024年</text>
-<line x1="619.6" y1="130" x2="619.6" y2="710" stroke="#f2f2f2" stroke-width="1"/>
-<line x1="747.3" y1="710" x2="747.3" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="747.3" y="744" font-size="21" fill="#666666" text-anchor="middle">2025年</text>
-<line x1="747.3" y1="130" x2="747.3" y2="710" stroke="#f2f2f2" stroke-width="1"/>
-<line x1="874.6" y1="710" x2="874.6" y2="718" stroke="#bbbbbb" stroke-width="1"/>
-<text x="874.6" y="744" font-size="21" fill="#666666" text-anchor="middle">2026年</text>
-<line x1="874.6" y1="130" x2="874.6" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<text x="96" y="137.0" font-size="21" fill="#666666" text-anchor="end">30</text>
+<line x1="248.6" y1="710" x2="248.6" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="248.6" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.4</text>
+<line x1="248.6" y1="130" x2="248.6" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<line x1="387.2" y1="710" x2="387.2" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="387.2" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.5</text>
+<line x1="387.2" y1="130" x2="387.2" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<line x1="530.4" y1="710" x2="530.4" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="530.4" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.6</text>
+<line x1="530.4" y1="130" x2="530.4" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<line x1="669.0" y1="710" x2="669.0" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="669.0" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.7</text>
+<line x1="669.0" y1="130" x2="669.0" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<line x1="812.2" y1="710" x2="812.2" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="812.2" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.8</text>
+<line x1="812.2" y1="130" x2="812.2" y2="710" stroke="#f2f2f2" stroke-width="1"/>
+<line x1="955.4" y1="710" x2="955.4" y2="718" stroke="#bbbbbb" stroke-width="1"/>
+<text x="955.4" y="744" font-size="21" fill="#666666" text-anchor="middle">2026.9</text>
+<line x1="955.4" y1="130" x2="955.4" y2="710" stroke="#f2f2f2" stroke-width="1"/>
 <line x1="110" y1="130" x2="110" y2="710" stroke="#999999" stroke-width="1.5"/>
 <line x1="110" y1="710" x2="960" y2="710" stroke="#999999" stroke-width="1.5"/>
-<path d="M 124.9 710.0 L 124.9 707.1 L 127.4 707.1 L 127.4 704.2 L 132.9 704.2 L 132.9 701.3 L 148.4 701.3 L 148.4 698.4 L 150.1 698.4 L 150.1 695.5 L 164.1 695.5 L 164.1 692.6 L 170.7 692.6 L 170.7 689.7 L 174.5 689.7 L 174.5 686.8 L 196.4 686.8 L 196.4 683.9 L 200.9 683.9 L 200.9 681.0 L 203.1 681.0 L 203.1 678.1 L 206.1 678.1 L 206.1 675.2 L 207.3 675.2 L 207.3 672.3 L 221.3 672.3 L 221.3 669.4 L 229.6 669.4 L 229.6 666.5 L 246.7 666.5 L 246.7 663.6 L 249.2 663.6 L 249.2 660.7 L 257.7 660.7 L 257.7 657.8 L 264.1 657.8 L 264.1 654.9 L 270.5 654.9 L 270.5 652.0 L 282.6 652.0 L 282.6 649.1 L 283.3 649.1 L 283.3 646.2 L 307.7 646.2 L 307.7 643.3 L 309.1 643.3 L 309.1 640.4 L 325.4 640.4 L 325.4 637.5 L 332.5 637.5 L 332.5 634.6 L 340.3 634.6 L 340.3 631.7 L 343.7 631.7 L 343.7 628.8 L 360.5 628.8 L 360.5 625.9 L 378.7 625.9 L 378.7 623.0 L 383.4 623.0 L 383.4 620.1 L 385.0 620.1 L 385.0 617.2 L 394.5 617.2 L 394.5 614.3 L 400.3 614.3 L 400.3 611.4 L 405.7 611.4 L 405.7 608.5 L 413.4 608.5 L 413.4 605.6 L 419.4 605.6 L 419.4 602.7 L 437.1 602.7 L 437.1 599.8 L 441.1 599.8 L 441.1 596.9 L 445.1 596.9 L 445.1 594.0 L 454.9 594.0 L 454.9 591.1 L 472.3 591.1 L 472.3 588.2 L 478.3 588.2 L 478.3 585.3 L 486.1 585.3 L 486.1 582.4 L 506.7 582.4 L 506.7 579.5 L 506.9 579.5 L 506.9 576.6 L 509.3 576.6 L 509.3 573.7 L 511.6 573.7 L 511.6 570.8 L 518.8 570.8 L 518.8 567.9 L 521.4 567.9 L 521.4 565.0 L 531.4 565.0 L 531.4 562.1 L 535.7 562.1 L 535.7 559.2 L 550.7 559.2 L 550.7 556.3 L 551.4 556.3 L 551.4 553.4 L 552.1 553.4 L 552.1 550.5 L 553.4 550.5 L 553.4 547.6 L 575.1 547.6 L 575.1 544.7 L 576.0 544.7 L 576.0 541.8 L 579.3 541.8 L 579.3 538.9 L 579.3 538.9 L 579.3 536.0 L 585.8 536.0 L 585.8 533.1 L 589.2 533.1 L 589.2 530.2 L 601.8 530.2 L 601.8 527.3 L 605.6 527.3 L 605.6 524.4 L 606.8 524.4 L 606.8 521.5 L 609.2 521.5 L 609.2 518.6 L 609.3 518.6 L 609.3 515.7 L 609.3 515.7 L 609.3 512.8 L 613.5 512.8 L 613.5 509.9 L 613.8 509.9 L 613.8 507.0 L 614.4 507.0 L 614.4 504.1 L 624.9 504.1 L 624.9 501.2 L 627.1 501.2 L 627.1 498.3 L 628.5 498.3 L 628.5 495.4 L 641.2 495.4 L 641.2 492.5 L 643.5 492.5 L 643.5 489.6 L 647.7 489.6 L 647.7 486.7 L 652.1 486.7 L 652.1 483.8 L 657.0 483.8 L 657.0 480.9 L 660.2 480.9 L 660.2 478.0 L 660.8 478.0 L 660.8 475.1 L 661.2 475.1 L 661.2 472.2 L 662.2 472.2 L 662.2 469.3 L 671.1 469.3 L 671.1 466.4 L 674.4 466.4 L 674.4 463.5 L 675.6 463.5 L 675.6 460.6 L 687.0 460.6 L 687.0 457.7 L 688.9 457.7 L 688.9 454.8 L 698.4 454.8 L 698.4 451.9 L 698.9 451.9 L 698.9 449.0 L 701.3 449.0 L 701.3 446.1 L 703.0 446.1 L 703.0 443.2 L 707.9 443.2 L 707.9 440.3 L 712.9 440.3 L 712.9 437.4 L 714.3 437.4 L 714.3 434.5 L 717.6 434.5 L 717.6 431.6 L 718.4 431.6 L 718.4 428.7 L 720.8 428.7 L 720.8 425.8 L 726.4 425.8 L 726.4 422.9 L 730.9 422.9 L 730.9 420.0 L 731.6 420.0 L 731.6 417.1 L 732.0 417.1 L 732.0 414.2 L 732.3 414.2 L 732.3 411.3 L 732.3 411.3 L 732.3 408.4 L 734.5 408.4 L 734.5 405.5 L 736.8 405.5 L 736.8 402.6 L 738.1 402.6 L 738.1 399.7 L 740.3 399.7 L 740.3 396.8 L 747.8 396.8 L 747.8 393.9 L 750.4 393.9 L 750.4 391.0 L 754.4 391.0 L 754.4 388.1 L 755.4 388.1 L 755.4 385.2 L 760.8 385.2 L 760.8 382.3 L 762.7 382.3 L 762.7 379.4 L 766.0 379.4 L 766.0 376.5 L 769.7 376.5 L 769.7 373.6 L 771.4 373.6 L 771.4 370.7 L 771.5 370.7 L 771.5 367.8 L 771.5 367.8 L 771.5 364.9 L 782.0 364.9 L 782.0 362.0 L 782.8 362.0 L 782.8 359.1 L 782.8 359.1 L 782.8 356.2 L 782.9 356.2 L 782.9 353.3 L 783.6 353.3 L 783.6 350.4 L 784.4 350.4 L 784.4 347.5 L 787.6 347.5 L 787.6 344.6 L 789.5 344.6 L 789.5 341.7 L 795.3 341.7 L 795.3 338.8 L 800.8 338.8 L 800.8 335.9 L 807.7 335.9 L 807.7 333.0 L 813.3 333.0 L 813.3 330.1 L 814.1 330.1 L 814.1 327.2 L 816.1 327.2 L 816.1 324.3 L 816.4 324.3 L 816.4 321.4 L 818.5 321.4 L 818.5 318.5 L 840.8 318.5 L 840.8 315.6 L 840.9 315.6 L 840.9 312.7 L 846.2 312.7 L 846.2 309.8 L 847.5 309.8 L 847.5 306.9 L 847.9 306.9 L 847.9 304.0 L 851.7 304.0 L 851.7 301.1 L 853.0 301.1 L 853.0 298.2 L 853.5 298.2 L 853.5 295.3 L 854.2 295.3 L 854.2 292.4 L 857.6 292.4 L 857.6 289.5 L 860.5 289.5 L 860.5 286.6 L 863.6 286.6 L 863.6 283.7 L 864.3 283.7 L 864.3 280.8 L 868.7 280.8 L 868.7 277.9 L 871.0 277.9 L 871.0 275.0 L 879.8 275.0 L 879.8 272.1 L 881.0 272.1 L 881.0 269.2 L 881.5 269.2 L 881.5 266.3 L 881.8 266.3 L 881.8 263.4 L 882.0 263.4 L 882.0 260.5 L 882.8 260.5 L 882.8 257.6 L 899.9 257.6 L 899.9 254.7 L 904.0 254.7 L 904.0 251.8 L 919.8 251.8 L 919.8 248.9 L 920.5 248.9 L 920.5 246.0 L 926.3 246.0 L 926.3 243.1 L 926.8 243.1 L 926.8 240.2 L 928.4 240.2 L 928.4 237.3 L 931.3 237.3 L 931.3 234.4 L 932.7 234.4 L 932.7 231.5 L 933.0 231.5 L 933.0 228.6 L 934.9 228.6 L 934.9 225.7 L 940.7 225.7 L 940.7 222.8 L 944.4 222.8 L 944.4 219.9 L 946.1 219.9 L 946.1 217.0 L 948.7 217.0 L 948.7 214.1 L 950.5 214.1 L 950.5 211.2 L 952.2 211.2 L 952.2 208.3 L 952.8 208.3 L 952.8 205.4 L 952.9 205.4 L 952.9 202.5 L 953.1 202.5 L 953.1 199.6 L 957.0 199.6 L 957.0 196.7 L 958.9 196.7 L 958.9 193.8 L 958.9 193.8 L 958.9 190.9 L 960.0 190.9" fill="none" stroke="#e53935" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="190.9" r="5" fill="#e53935"/>
-<text x="950.0" y="178.9" font-size="22" font-weight="700" fill="#e53935" text-anchor="end">179</text>
-<path d="M 110.0 710.0 L 110.0 707.1 L 112.4 707.1 L 112.4 704.2 L 113.5 704.2 L 113.5 701.3 L 121.4 701.3 L 121.4 698.4 L 124.2 698.4 L 124.2 695.5 L 130.3 695.5 L 130.3 692.6 L 130.9 692.6 L 130.9 689.7 L 130.9 689.7 L 130.9 686.8 L 133.3 686.8 L 133.3 683.9 L 137.8 683.9 L 137.8 681.0 L 140.7 681.0 L 140.7 678.1 L 142.1 678.1 L 142.1 675.2 L 143.2 675.2 L 143.2 672.3 L 144.6 672.3 L 144.6 669.4 L 146.2 669.4 L 146.2 666.5 L 146.9 666.5 L 146.9 663.6 L 149.7 663.6 L 149.7 660.7 L 153.6 660.7 L 153.6 657.8 L 154.0 657.8 L 154.0 654.9 L 156.6 654.9 L 156.6 652.0 L 158.0 652.0 L 158.0 649.1 L 158.1 649.1 L 158.1 646.2 L 160.9 646.2 L 160.9 643.3 L 166.8 643.3 L 166.8 640.4 L 172.4 640.4 L 172.4 637.5 L 174.4 637.5 L 174.4 634.6 L 182.4 634.6 L 182.4 631.7 L 195.6 631.7 L 195.6 628.8 L 199.3 628.8 L 199.3 625.9 L 224.7 625.9 L 224.7 623.0 L 236.5 623.0 L 236.5 620.1 L 248.4 620.1 L 248.4 617.2 L 272.6 617.2 L 272.6 614.3 L 408.5 614.3 L 408.5 611.4 L 595.0 611.4 L 595.0 608.5 L 742.7 608.5 L 742.7 605.6 L 854.5 605.6 L 854.5 602.7 L 960.0 602.7" fill="none" stroke="#fb8c00" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="602.7" r="5" fill="#fb8c00"/>
-<text x="950.0" y="590.7" font-size="22" font-weight="700" fill="#fb8c00" text-anchor="end">37</text>
-<path d="M 953.0 710.0 L 953.0 707.1 L 953.0 707.1 L 953.0 704.2 L 953.2 704.2 L 953.2 701.3 L 953.3 701.3 L 953.3 698.4 L 953.3 698.4 L 953.3 695.5 L 953.4 695.5 L 953.4 692.6 L 953.5 692.6 L 953.5 689.7 L 953.6 689.7 L 953.6 686.8 L 953.8 686.8 L 953.8 683.9 L 954.0 683.9 L 954.0 681.0 L 954.2 681.0 L 954.2 678.1 L 954.2 678.1 L 954.2 675.2 L 954.6 675.2 L 954.6 672.3 L 954.6 672.3 L 954.6 669.4 L 954.9 669.4 L 954.9 666.5 L 955.0 666.5 L 955.0 663.6 L 955.4 663.6 L 955.4 660.7 L 955.4 660.7 L 955.4 657.8 L 956.0 657.8 L 956.0 654.9 L 956.4 654.9 L 956.4 652.0 L 956.5 652.0 L 956.5 649.1 L 956.7 649.1 L 956.7 646.2 L 957.0 646.2 L 957.0 643.3 L 957.4 643.3 L 957.4 640.4 L 957.4 640.4 L 957.4 637.5 L 958.8 637.5 L 958.8 634.6 L 958.9 634.6 L 958.9 631.7 L 960.0 631.7" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="631.7" r="5" fill="#1e88e5"/>
-<text x="950.0" y="619.7" font-size="22" font-weight="700" fill="#1e88e5" text-anchor="end">27</text>
-<path d="M 955.7 710.0 L 955.7 707.1 L 955.7 707.1 L 955.7 704.2 L 955.7 704.2 L 955.7 701.3 L 955.7 701.3 L 955.7 698.4 L 956.0 698.4 L 956.0 695.5 L 957.4 695.5 L 957.4 692.6 L 957.4 692.6 L 957.4 689.7 L 957.7 689.7 L 957.7 686.8 L 958.1 686.8 L 958.1 683.9 L 958.2 683.9 L 958.2 681.0 L 958.9 681.0 L 958.9 678.1 L 959.1 678.1 L 959.1 675.2 L 959.5 675.2 L 959.5 672.3 L 959.5 672.3 L 959.5 669.4 L 959.8 669.4 L 959.8 666.5 L 960.0 666.5" fill="none" stroke="#43a047" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="666.5" r="5" fill="#43a047"/>
-<text x="950.0" y="654.5" font-size="22" font-weight="700" fill="#43a047" text-anchor="end">15</text>
-<path d="M 948.5 710.0 L 948.5 707.1 L 950.5 707.1 L 950.5 704.2 L 951.5 704.2 L 951.5 701.3 L 951.8 701.3 L 951.8 698.4 L 951.8 698.4 L 951.8 695.5 L 953.3 695.5 L 953.3 692.6 L 953.5 692.6 L 953.5 689.7 L 953.6 689.7 L 953.6 686.8 L 953.6 686.8 L 953.6 683.9 L 954.0 683.9 L 954.0 681.0 L 954.6 681.0 L 954.6 678.1 L 958.6 678.1 L 958.6 675.2 L 960.0 675.2" fill="none" stroke="#00897b" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="675.2" r="5" fill="#00897b"/>
-<text x="950.0" y="680.5" font-size="22" font-weight="700" fill="#00897b" text-anchor="end">12</text>
-<path d="M 955.6 710.0 L 955.6 707.1 L 956.6 707.1 L 956.6 704.2 L 956.7 704.2 L 956.7 701.3 L 957.7 701.3 L 957.7 698.4 L 959.4 698.4 L 959.4 695.5 L 960.0 695.5" fill="none" stroke="#8e24aa" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="695.5" r="5" fill="#8e24aa"/>
-<text x="950.0" y="706.5" font-size="22" font-weight="700" fill="#8e24aa" text-anchor="end">5</text>
-<path d="M 947.6 710.0 L 947.6 707.1 L 947.6 707.1 L 947.6 704.2 L 949.0 704.2 L 949.0 701.3 L 949.7 701.3 L 949.7 698.4 L 950.5 698.4 L 950.5 695.5 L 960.0 695.5" fill="none" stroke="#6d4c41" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="695.5" r="5" fill="#6d4c41"/>
-<text x="950.0" y="732.5" font-size="22" font-weight="700" fill="#6d4c41" text-anchor="end">5</text>
-<path d="M 949.3 710.0 L 949.3 707.1 L 950.5 707.1 L 950.5 704.2 L 952.6 704.2 L 952.6 701.3 L 954.8 701.3 L 954.8 698.4 L 960.0 698.4" fill="none" stroke="#3949ab" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="698.4" r="5" fill="#3949ab"/>
-<text x="950.0" y="686.4" font-size="22" font-weight="700" fill="#3949ab" text-anchor="end">4</text>
-<path d="M 953.7 710.0 L 953.7 707.1 L 955.2 707.1 L 955.2 704.2 L 956.1 704.2 L 956.1 701.3 L 956.3 701.3 L 956.3 698.4 L 960.0 698.4" fill="none" stroke="#d81b60" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="698.4" r="5" fill="#d81b60"/>
-<text x="950.0" y="712.4" font-size="22" font-weight="700" fill="#d81b60" text-anchor="end">4</text>
-<path d="M 948.5 710.0 L 948.5 707.1 L 954.9 707.1 L 954.9 704.2 L 959.8 704.2 L 959.8 701.3 L 960.0 701.3" fill="none" stroke="#b8860b" stroke-width="3" stroke-linejoin="round"/>
-<circle cx="960.0" cy="701.3" r="5" fill="#b8860b"/>
-<text x="950.0" y="738.4" font-size="22" font-weight="700" fill="#b8860b" text-anchor="end">3</text>
+<path d="M 110.0 710.0 L 871.0 710.0 L 871.0 690.7 L 871.3 690.7 L 871.3 671.3 L 873.5 671.3 L 873.5 652.0 L 875.0 652.0 L 875.0 632.7 L 875.3 632.7 L 875.3 613.3 L 876.6 613.3 L 876.6 594.0 L 878.0 594.0 L 878.0 574.7 L 879.3 574.7 L 879.3 555.3 L 882.1 555.3 L 882.1 536.0 L 884.8 536.0 L 884.8 516.7 L 886.7 516.7 L 886.7 497.3 L 887.3 497.3 L 887.3 478.0 L 892.0 478.0 L 892.0 458.7 L 892.4 458.7 L 892.4 439.3 L 896.5 439.3 L 896.5 420.0 L 897.8 420.0 L 897.8 400.7 L 902.6 400.7 L 902.6 381.3 L 902.8 381.3 L 902.8 362.0 L 911.0 362.0 L 911.0 342.7 L 915.8 342.7 L 915.8 323.3 L 917.3 323.3 L 917.3 304.0 L 919.7 304.0 L 919.7 284.7 L 924.1 284.7 L 924.1 265.3 L 928.6 265.3 L 928.6 246.0 L 929.8 246.0 L 929.8 226.7 L 947.7 226.7 L 947.7 207.3 L 949.0 207.3 L 949.0 188.0 L 960.0 188.0" fill="none" stroke="#e53935" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="188.0" r="5" fill="#e53935"/>
+<text x="950.0" y="176.0" font-size="22" font-weight="700" fill="#e53935" text-anchor="end">27</text>
+<path d="M 110.0 710.0 L 168.3 710.0 L 168.3 690.7 L 222.1 690.7 L 222.1 671.3 L 431.9 671.3 L 431.9 652.0 L 440.9 652.0 L 440.9 632.7 L 517.1 632.7 L 517.1 613.3 L 523.7 613.3 L 523.7 594.0 L 545.6 594.0 L 545.6 574.7 L 583.8 574.7 L 583.8 555.3 L 602.8 555.3 L 602.8 536.0 L 605.6 536.0 L 605.6 516.7 L 631.7 516.7 L 631.7 497.3 L 707.7 497.3 L 707.7 478.0 L 757.6 478.0 L 757.6 458.7 L 780.1 458.7 L 780.1 439.3 L 814.4 439.3 L 814.4 420.0 L 838.2 420.0 L 838.2 400.7 L 860.5 400.7 L 860.5 381.3 L 868.2 381.3 L 868.2 362.0 L 869.2 362.0 L 869.2 342.7 L 872.9 342.7 L 872.9 323.3 L 924.1 323.3 L 924.1 304.0 L 948.9 304.0 L 948.9 284.7 L 949.1 284.7 L 949.1 265.3 L 960.0 265.3" fill="none" stroke="#1e88e5" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="265.3" r="5" fill="#1e88e5"/>
+<text x="950.0" y="253.3" font-size="22" font-weight="700" fill="#1e88e5" text-anchor="end">23</text>
+<path d="M 110.0 710.0 L 906.4 710.0 L 906.4 690.7 L 906.4 690.7 L 906.4 671.3 L 906.4 671.3 L 906.4 652.0 L 906.9 652.0 L 906.9 632.7 L 911.0 632.7 L 911.0 613.3 L 929.2 613.3 L 929.2 594.0 L 929.4 594.0 L 929.4 574.7 L 932.7 574.7 L 932.7 555.3 L 938.4 555.3 L 938.4 536.0 L 940.0 536.0 L 940.0 516.7 L 948.7 516.7 L 948.7 497.3 L 951.8 497.3 L 951.8 478.0 L 956.6 478.0 L 956.6 458.7 L 957.1 458.7 L 957.1 439.3 L 961.5 439.3 L 961.5 420.0 L 960.0 420.0" fill="none" stroke="#43a047" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="420.0" r="5" fill="#43a047"/>
+<text x="950.0" y="408.0" font-size="22" font-weight="700" fill="#43a047" text-anchor="end">15</text>
+<path d="M 110.0 710.0 L 811.3 710.0 L 811.3 690.7 L 838.2 690.7 L 838.2 671.3 L 851.4 671.3 L 851.4 652.0 L 854.4 652.0 L 854.4 632.7 L 854.4 632.7 L 854.4 613.3 L 874.9 613.3 L 874.9 594.0 L 877.8 594.0 L 877.8 574.7 L 878.6 574.7 L 878.6 555.3 L 878.9 555.3 L 878.9 536.0 L 884.8 536.0 L 884.8 516.7 L 891.7 516.7 L 891.7 497.3 L 944.7 497.3 L 944.7 478.0 L 960.0 478.0" fill="none" stroke="#fb8c00" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="478.0" r="5" fill="#fb8c00"/>
+<text x="950.0" y="466.0" font-size="22" font-weight="700" fill="#fb8c00" text-anchor="end">12</text>
+<path d="M 110.0 710.0 L 905.3 710.0 L 905.3 690.7 L 918.9 690.7 L 918.9 671.3 L 920.1 671.3 L 920.1 652.0 L 932.8 652.0 L 932.8 632.7 L 955.9 632.7 L 955.9 613.3 L 960.0 613.3" fill="none" stroke="#8e24aa" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="613.3" r="5" fill="#8e24aa"/>
+<text x="950.0" y="601.3" font-size="22" font-weight="700" fill="#8e24aa" text-anchor="end">5</text>
+<path d="M 110.0 710.0 L 799.7 710.0 L 799.7 690.7 L 799.7 690.7 L 799.7 671.3 L 818.2 671.3 L 818.2 652.0 L 826.8 652.0 L 826.8 632.7 L 838.1 632.7 L 838.1 613.3 L 960.0 613.3" fill="none" stroke="#00897b" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="613.3" r="5" fill="#00897b"/>
+<text x="950.0" y="627.3" font-size="22" font-weight="700" fill="#00897b" text-anchor="end">5</text>
+<path d="M 110.0 710.0 L 822.4 710.0 L 822.4 690.7 L 838.2 690.7 L 838.2 671.3 L 865.5 671.3 L 865.5 652.0 L 894.7 652.0 L 894.7 632.7 L 960.0 632.7" fill="none" stroke="#3949ab" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="632.7" r="5" fill="#3949ab"/>
+<text x="950.0" y="653.3" font-size="22" font-weight="700" fill="#3949ab" text-anchor="end">4</text>
+<path d="M 110.0 710.0 L 879.6 710.0 L 879.6 690.7 L 900.2 690.7 L 900.2 671.3 L 912.0 671.3 L 912.0 652.0 L 915.2 652.0 L 915.2 632.7 L 960.0 632.7" fill="none" stroke="#d81b60" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="632.7" r="5" fill="#d81b60"/>
+<text x="950.0" y="620.7" font-size="22" font-weight="700" fill="#d81b60" text-anchor="end">4</text>
+<path d="M 110.0 710.0 L 811.3 710.0 L 811.3 690.7 L 895.8 690.7 L 895.8 671.3 L 960.5 671.3 L 960.5 652.0 L 960.0 652.0" fill="none" stroke="#6d4c41" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="652.0" r="5" fill="#6d4c41"/>
+<text x="950.0" y="646.7" font-size="22" font-weight="700" fill="#6d4c41" text-anchor="end">3</text>
+<path d="M 110.0 710.0 L 772.4 710.0 L 772.4 690.7 L 789.5 690.7 L 789.5 671.3 L 838.2 671.3 L 838.2 652.0 L 960.0 652.0" fill="none" stroke="#b8860b" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="960.0" cy="652.0" r="5" fill="#b8860b"/>
+<text x="950.0" y="672.7" font-size="22" font-weight="700" fill="#b8860b" text-anchor="end">3</text>
 <line x1="140" y1="773" x2="174" y2="773" stroke="#e53935" stroke-width="4"/>
-<text x="184" y="780" font-size="21" fill="#333333">rEFInd</text>
-<line x1="140" y1="811" x2="174" y2="811" stroke="#fb8c00" stroke-width="4"/>
-<text x="184" y="818" font-size="21" fill="#333333">B450M-MORTAR-Hackintosh</text>
-<line x1="140" y1="849" x2="174" y2="849" stroke="#1e88e5" stroke-width="4"/>
-<text x="184" y="856" font-size="21" fill="#333333">deepseek-harness-fnos</text>
-<line x1="140" y1="887" x2="174" y2="887" stroke="#43a047" stroke-width="4"/>
-<text x="184" y="894" font-size="21" fill="#333333">10router</text>
-<line x1="140" y1="925" x2="174" y2="925" stroke="#00897b" stroke-width="4"/>
-<text x="184" y="932" font-size="21" fill="#333333">9router-fnos</text>
-<line x1="535" y1="773" x2="569" y2="773" stroke="#8e24aa" stroke-width="4"/>
-<text x="579" y="780" font-size="21" fill="#333333">hermes-fry-cards</text>
-<line x1="535" y1="811" x2="569" y2="811" stroke="#6d4c41" stroke-width="4"/>
-<text x="579" y="818" font-size="21" fill="#333333">yangyu-hermes-skills</text>
-<line x1="535" y1="849" x2="569" y2="849" stroke="#3949ab" stroke-width="4"/>
-<text x="579" y="856" font-size="21" fill="#333333">hermes-core-fnos</text>
-<line x1="535" y1="887" x2="569" y2="887" stroke="#d81b60" stroke-width="4"/>
-<text x="579" y="894" font-size="21" fill="#333333">hermes-dashboard-fnos</text>
+<text x="184" y="780" font-size="21" fill="#333333">deepseek-harness-fnos</text>
+<line x1="140" y1="811" x2="174" y2="811" stroke="#1e88e5" stroke-width="4"/>
+<text x="184" y="818" font-size="21" fill="#333333">rEFInd</text>
+<line x1="140" y1="849" x2="174" y2="849" stroke="#43a047" stroke-width="4"/>
+<text x="184" y="856" font-size="21" fill="#333333">10router</text>
+<line x1="140" y1="887" x2="174" y2="887" stroke="#fb8c00" stroke-width="4"/>
+<text x="184" y="894" font-size="21" fill="#333333">9router-fnos</text>
+<line x1="140" y1="925" x2="174" y2="925" stroke="#8e24aa" stroke-width="4"/>
+<text x="184" y="932" font-size="21" fill="#333333">hermes-fry-cards</text>
+<line x1="535" y1="773" x2="569" y2="773" stroke="#00897b" stroke-width="4"/>
+<text x="579" y="780" font-size="21" fill="#333333">yangyu-hermes-skills</text>
+<line x1="535" y1="811" x2="569" y2="811" stroke="#3949ab" stroke-width="4"/>
+<text x="579" y="818" font-size="21" fill="#333333">hermes-core-fnos</text>
+<line x1="535" y1="849" x2="569" y2="849" stroke="#d81b60" stroke-width="4"/>
+<text x="579" y="856" font-size="21" fill="#333333">hermes-dashboard-fnos</text>
+<line x1="535" y1="887" x2="569" y2="887" stroke="#6d4c41" stroke-width="4"/>
+<text x="579" y="894" font-size="21" fill="#333333">metacubexd-fnos</text>
 <line x1="535" y1="925" x2="569" y2="925" stroke="#b8860b" stroke-width="4"/>
-<text x="579" y="932" font-size="21" fill="#333333">metacubexd-fnos</text>
+<text x="579" y="932" font-size="21" fill="#333333">spot-studio</text>
+<text x="500.0" y="982" font-size="17" fill="#aaaaaa" text-anchor="middle">数据: GitHub API (star+json) · 生成于 2026-09-02</text>
 </svg>
