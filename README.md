@@ -18,11 +18,21 @@
 > [![Node.js](https://img.shields.io/badge/Node.js-v24-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 > [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
 
+### 🚦 10Router
+
+> [**10Router**](https://github.com/techysy/10router) — 本地 AI 路由网关 & Dashboard（9Router 精简优化版）
+>
+> 40+ 上游供应商路由 · 格式翻译 · 模型 Combo / 多账号 fallback · OAuth / API-key 凭据管理 · Token 刷新 · 配额用量追踪 · 可选云端同步
+>
+> [![Release](https://img.shields.io/github/v/release/techysy/10router?label=Release&color=2463eb)](https://github.com/techysy/10router/releases)
+> [![npm](https://img.shields.io/npm/v/@techysy/10router?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@techysy/10router)
+> [![Docker](https://img.shields.io/badge/Docker-ghcr.io%2Ftechysy%2F10router-2496ED?logo=docker&logoColor=white)](https://github.com/techysy/10router/pkgs/container/10router)
+> [![Stars](https://img.shields.io/github/stars/techysy/10router?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/10router)
+
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
 | 项目 | 版本 | 说明 |
 |------|------|------|
-| [**10Router**](https://github.com/techysy/10router) | ![Release](https://img.shields.io/github/v/release/techysy/10router) | FREE AI Router & Token Saver · 飞牛 NAS |
 | [**Hermes Agent**](https://github.com/techysy/hermes-dashboard-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-dashboard-fnos) | Hermes 控制台快捷入口 · 可配置目标仪表盘 |
 | [**Hugo Blog**](https://github.com/techysy/hugo-blog-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hugo-blog-fnos) | Hugo 静态博客 · 常驻渲染 · 管理面板 |
 | [**Mihomo Core**](https://github.com/techysy/mihomo-core-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/mihomo-core-fnos) | Mihomo 内核 fnOS 应用 |
