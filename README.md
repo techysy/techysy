@@ -15,7 +15,7 @@
 >
 > [![fnOS 版本](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
 > [![上游版本](https://img.shields.io/badge/upstream-v0.1.1--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
-> [![Node.js](https://img.shields.io/badge/Node.js-v24-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+> [![Stars](https://img.shields.io/github/stars/techysy/deepseek-harness-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/deepseek-harness-fnos)
 > [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
 
 ### 🚦 10Router
