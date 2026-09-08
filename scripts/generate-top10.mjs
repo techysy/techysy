@@ -16,6 +16,8 @@ const TZ_OFFSET_MS = 8 * 3600 * 1000; // Asia/Shanghai
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 
 function getToken() {
+  // GITHUB_TOKEN (Actions 集成令牌) 无法访问 stargazers 端点,需要 PAT
+  if (process.env.GH_PAT) return process.env.GH_PAT;
   if (process.env.GITHUB_TOKEN) return process.env.GITHUB_TOKEN;
   if (process.env.GH_TOKEN) return process.env.GH_TOKEN;
   try {
