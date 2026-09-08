@@ -9,7 +9,7 @@
 
 ### 🐋 DeepSeek Harness (dsh)
 
-> [**DeepSeek Harness (dsh)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek Harness 官方 Agent 浏览器 UI 的 fnOS 应用
+> [**DeepSeek Harness fnOS)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek官方 Agent 浏览器 UI 的 fnOS 应用
 >
 > 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
@@ -18,7 +18,7 @@
 > [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
 > [![Stars](https://img.shields.io/github/stars/techysy/deepseek-harness-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/deepseek-harness-fnos)
 
-### 🚦 10Router
+### 🌐 10Router
 
 > [**10Router**](https://github.com/techysy/10router) — 本地 AI 路由网关 & Dashboard（9Router 精简优化版）
 >
