@@ -63,14 +63,10 @@
 
 ![Details](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=techysy&theme=default)
 
-### 
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/stars-top10-dark.svg">
   <img alt="Star Top 10 · 最近 42 天" src="assets/stars-top10.svg">
 </picture>
-
-### 
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/commits-top10-dark.svg">
