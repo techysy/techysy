@@ -106,14 +106,16 @@ async function collect() {
 // ---- SVG rendering ----
 const THEMES = {
   light: {
-    bg: '#ffffff', border: '#d0d7de', title: '#1f2328', text: '#1f2328', secondary: '#656d76',
-    grid: '#e2e8ee', axis: '#afb8c1', divider: '#eaeef2', accent: '#bf8700', commitIcon: '#8250df',
-    palette: ['#cf222e', '#0969da', '#1a7f37', '#bf8700', '#8250df', '#0891b2', '#bf3989', '#bc4c00', '#0a7ea4', '#57606a'],
+    bgFrom: '#ffffff', bgTo: '#f8fafc', border: '#e2e8f0', title: '#0f172a', text: '#1e293b', secondary: '#64748b',
+    grid: '#eef2f7', axis: '#cbd5e1', divider: '#f1f5f9', accent: '#f59e0b', commitIcon: '#7c3aed',
+    medals: ['#d97706', '#94a3b8', '#b45309'],
+    palette: ['#e11d48', '#2563eb', '#059669', '#d97706', '#7c3aed', '#0891b2', '#db2777', '#ea580c', '#4f46e5', '#64748b'],
   },
   dark: {
-    bg: '#0d1117', border: '#30363d', title: '#e6edf3', text: '#e6edf3', secondary: '#8b949e',
-    grid: '#21262d', axis: '#484f58', divider: '#21262d', accent: '#d29922', commitIcon: '#a371f7',
-    palette: ['#f85149', '#58a6ff', '#3fb950', '#d29922', '#a371f7', '#39c5cf', '#db61a2', '#ffa657', '#d4a373', '#8b949e'],
+    bgFrom: '#161b22', bgTo: '#0d1117', border: '#30363d', title: '#e6edf3', text: '#c9d1d9', secondary: '#8b949e',
+    grid: '#1c2129', axis: '#3d444d', divider: '#21262d', accent: '#fbbf24', commitIcon: '#a78bfa',
+    medals: ['#fbbf24', '#9aa7b4', '#d08a4e'],
+    palette: ['#fb7185', '#60a5fa', '#34d399', '#fbbf24', '#a78bfa', '#22d3ee', '#f472b6', '#fb923c', '#818cf8', '#94a3b8'],
   },
 };
 const FONT = '-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto Sans CJK SC&quot;,&quot;PingFang SC&quot;,&quot;Microsoft YaHei&quot;,Helvetica,Arial,sans-serif';
@@ -127,17 +129,39 @@ function niceMax(v) {
   return step * 4;
 }
 
-// Catmull-Rom -> cubic bezier smooth path
+// Fritsch–Carlson monotone cubic -> cubic bezier path.
+// Monotone: flat runs (e.g. 0,0,0) stay exactly flat, no overshoot past data points.
 function smoothPath(pts) {
-  if (pts.length < 2) return '';
-  let d = `M${pts[0].x.toFixed(1)},${pts[0].y.toFixed(1)}`;
-  for (let i = 0; i < pts.length - 1; i++) {
-    const p0 = pts[Math.max(0, i - 1)], p1 = pts[i], p2 = pts[i + 1], p3 = pts[Math.min(pts.length - 1, i + 2)];
-    const c1x = p1.x + (p2.x - p0.x) / 6, c1y = p1.y + (p2.y - p0.y) / 6;
-    const c2x = p2.x - (p3.x - p1.x) / 6, c2y = p2.y - (p3.y - p1.y) / 6;
-    d += `C${c1x.toFixed(1)},${c1y.toFixed(1)} ${c2x.toFixed(1)},${c2y.toFixed(1)} ${p2.x.toFixed(1)},${p2.y.toFixed(1)}`;
+  const n = pts.length;
+  if (n < 2) return '';
+  if (n === 2) return `M${pts[0].x.toFixed(1)},${pts[0].y.toFixed(1)}L${pts[1].x.toFixed(1)},${pts[1].y.toFixed(1)}`;
+  const d = [];
+  for (let i = 0; i < n - 1; i++) d.push((pts[i + 1].y - pts[i].y) / (pts[i + 1].x - pts[i].x));
+  const m = new Array(n);
+  m[0] = d[0];
+  m[n - 1] = d[n - 2];
+  for (let i = 1; i < n - 1; i++) m[i] = d[i - 1] * d[i] <= 0 ? 0 : (d[i - 1] + d[i]) / 2;
+  for (let i = 0; i < n - 1; i++) {
+    if (d[i] === 0) {
+      m[i] = 0;
+      m[i + 1] = 0;
+    } else {
+      const a = m[i] / d[i], b = m[i + 1] / d[i], s = a * a + b * b;
+      if (s > 9) {
+        const tau = 3 / Math.sqrt(s);
+        m[i] = tau * a * d[i];
+        m[i + 1] = tau * b * d[i];
+      }
+    }
   }
-  return d;
+  let out = `M${pts[0].x.toFixed(1)},${pts[0].y.toFixed(1)}`;
+  for (let i = 0; i < n - 1; i++) {
+    const dx = pts[i + 1].x - pts[i].x;
+    const c1x = pts[i].x + dx / 3, c1y = pts[i].y + (m[i] * dx) / 3;
+    const c2x = pts[i + 1].x - dx / 3, c2y = pts[i + 1].y - (m[i + 1] * dx) / 3;
+    out += `C${c1x.toFixed(1)},${c1y.toFixed(1)} ${c2x.toFixed(1)},${c2y.toFixed(1)} ${pts[i + 1].x.toFixed(1)},${pts[i + 1].y.toFixed(1)}`;
+  }
+  return out;
 }
 
 function starIcon(x, y, r, fill) {
@@ -165,7 +189,17 @@ function render(rows, themeName, opts) {
 
   const parts = [];
   parts.push(`<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-label="${esc(opts.ariaLabel)}">`);
-  parts.push(`<rect width="${W}" height="${H}" rx="16" fill="${t.bg}"/>`);
+
+  // defs: card background gradient + per-series stroke/area gradients
+  const defs = [`<linearGradient id="cardbg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${t.bgFrom}"/><stop offset="1" stop-color="${t.bgTo}"/></linearGradient>`];
+  rows.forEach((row, ri) => {
+    const color = t.palette[ri % t.palette.length];
+    defs.push(`<linearGradient id="ls-${ri}" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="${color}" stop-opacity="0.25"/><stop offset="0.55" stop-color="${color}" stop-opacity="0.7"/><stop offset="1" stop-color="${color}"/></linearGradient>`);
+    defs.push(`<linearGradient id="as-${ri}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="${color}" stop-opacity="${themeName === 'dark' ? 0.14 : 0.1}"/><stop offset="1" stop-color="${color}" stop-opacity="0"/></linearGradient>`);
+  });
+  parts.push(`<defs>${defs.join('')}</defs>`);
+
+  parts.push(`<rect width="${W}" height="${H}" rx="16" fill="url(#cardbg)"/>`);
   parts.push(`<rect x="0.75" y="0.75" width="${W - 1.5}" height="${H - 1.5}" rx="16" fill="none" stroke="${t.border}" stroke-width="1.5"/>`);
 
   // header
@@ -179,7 +213,7 @@ function render(rows, themeName, opts) {
   // grid + y labels
   for (let i = 0; i <= 4; i++) {
     const v = step * i, gy = y(v);
-    parts.push(`<line x1="${plot.l}" y1="${gy}" x2="${plot.r}" y2="${gy}" stroke="${t.grid}" stroke-width="1.2"${i ? ' stroke-dasharray="5 5"' : ''}/>`);
+    parts.push(`<line x1="${plot.l}" y1="${gy}" x2="${plot.r}" y2="${gy}" stroke="${i ? t.grid : t.axis}" stroke-width="${i ? 1 : 1.6}"/>`);
     parts.push(`<text x="84" y="${gy + 6}" font-family="${FONT}" font-size="19" fill="${t.secondary}" text-anchor="end">${v}</text>`);
   }
   parts.push(`<text x="${plot.l}" y="180" font-family="${FONT}" font-size="18" fill="${t.secondary}">${esc(opts.unit)}</text>`);
@@ -187,16 +221,25 @@ function render(rows, themeName, opts) {
   // x ticks
   for (let i = 0; i <= 6; i++) {
     const idx = Math.round((i * DAYS) / 6), tx = x(idx);
-    parts.push(`<line x1="${tx}" y1="${plot.b}" x2="${tx}" y2="${plot.b + 7}" stroke="${t.axis}" stroke-width="1.4"/>`);
     parts.push(`<text x="${tx}" y="${plot.b + 32}" font-family="${FONT}" font-size="19" fill="${t.secondary}" text-anchor="middle">${fmt(points[idx])}</text>`);
   }
 
-  // series
-  rows.forEach((row, ri) => {
+  // series: area fill first (bottom layer), then gradient line, then end dot with halo
+  // draw in reverse rank order so the #1 series stays on top
+  const drawOrder = rows.map((_, ri) => ri).reverse();
+  drawOrder.forEach((ri) => {
+    const row = rows[ri];
+    const pts = row.series.map((v, i) => ({ x: x(i), y: y(v) }));
+    const line = smoothPath(pts);
+    parts.push(`<path d="${line}L${x(DAYS).toFixed(1)},${plot.b} L${x(0).toFixed(1)},${plot.b} Z" fill="url(#as-${ri})" stroke="none"/>`);
+  });
+  drawOrder.forEach((ri) => {
+    const row = rows[ri];
     const color = t.palette[ri % t.palette.length];
     const pts = row.series.map((v, i) => ({ x: x(i), y: y(v) }));
-    parts.push(`<path d="${smoothPath(pts)}" fill="none" stroke="${color}" stroke-width="3" stroke-linecap="round"/>`);
-    parts.push(`<circle cx="${x(DAYS)}" cy="${y(row.total)}" r="5" fill="${color}"/>`);
+    parts.push(`<path d="${smoothPath(pts)}" fill="none" stroke="url(#ls-${ri})" stroke-width="3.5" stroke-linecap="round"/>`);
+    parts.push(`<circle cx="${x(DAYS)}" cy="${y(row.total)}" r="9" fill="${color}" fill-opacity="0.22"/>`);
+    parts.push(`<circle cx="${x(DAYS)}" cy="${y(row.total)}" r="4.5" fill="${color}"/>`);
   });
 
   // ranking panel
@@ -206,7 +249,8 @@ function render(rows, themeName, opts) {
     const color = t.palette[ri % t.palette.length];
     const cy = top0 + ri * rowH;
     if (ri > 0) parts.push(`<line x1="1088" y1="${cy - 8}" x2="1528" y2="${cy - 8}" stroke="${t.divider}" stroke-width="1"/>`);
-    parts.push(`<text x="1112" y="${cy + 28}" font-family="${FONT}" font-size="20" fill="${t.secondary}" text-anchor="end">${ri + 1}</text>`);
+    const rankColor = ri < 3 ? t.medals[ri] : t.secondary;
+    parts.push(`<text x="1112" y="${cy + 28}" font-family="${FONT}" font-size="20" font-weight="${ri < 3 ? 700 : 400}" fill="${rankColor}" text-anchor="end">${ri + 1}</text>`);
     parts.push(`<circle cx="1144" cy="${cy + 22}" r="7" fill="${color}"/>`);
     const name = row.name.length > 22 ? row.name.slice(0, 21) + '…' : row.name;
     parts.push(`<text x="1166" y="${cy + 29}" font-family="${FONT}" font-size="21" fill="${t.text}">${esc(name)}</text>`);
