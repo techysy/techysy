@@ -39,7 +39,7 @@
 | [**MetaCubeXD**](https://github.com/techysy/metacubexd-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/metacubexd-fnos) | Mihomo Dashboard |
 | [**Strava Panel**](https://github.com/techysy/strava-panel-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/strava-panel-fnos) | 骑行数据面板 · 凭据 + Token 刷新 + 统计 |
 
-### 🎴 飞书消息卡片
+### 📢 飞书消息卡片
 
 | 项目 | 版本 | 说明 |
 |------|------|------|
