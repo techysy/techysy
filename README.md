@@ -44,11 +44,14 @@
 | 项目 | 版本 | 说明 |
 |------|------|------|
 | [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-fry-cards) | 🍟 Hermes **卡片渲染层** — 流式卡片插件，正在使用中 |
-| [**claw-fry-cards**](https://github.com/techysy/claw-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-fry-cards) | 🍤 OpenClaw **卡片渲染层** — 装在官方通道之上，仅管卡片 |
-| [**claw-lark-cards**](https://github.com/techysy/claw-lark-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-lark-cards) | 🌯 OpenClaw **通道+卡片二合一** — 替代官方通道插件 |
+| [**claw-fry-cards**](https://github.com/techysy/claw-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-fry-cards) | 🍤 OpenClaw **伴侣插件** — 钩子观测自建卡片，通道仍用官方 |
+| [**claw-lark-cards**](https://github.com/techysy/claw-lark-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-lark-cards) | 🌯 OpenClaw **通道插件** — 官方通道 2.0 适配，卡片引擎内置 |
 | [**zcode-feishu-bridge**](https://github.com/techysy/zcode-feishu-bridge) | ![Release](https://img.shields.io/github/v/release/techysy/zcode-feishu-bridge) | 🌉 ZCode **单向实况桥** — 只读 rollout 推送进度 |
 
-> 🔖 **claw-fry-cards vs claw-lark-cards**：两者都是 OpenClaw 飞书卡片方案，**二选一**。`claw-fry-cards` 是**纯卡片层**——装在官方通道之上，只负责把回复渲染成流式卡片，通道能力（收发/文档/表格）仍由官方 `@larksuite/openclaw-lark` 提供；`claw-lark-cards` 是**通道+卡片二合一**——替代官方通道插件，收发与卡片一体，无需另装通道。新装推荐 `claw-lark-cards`（单一插件，官方通道已停更）。
+> 🔖 **claw-fry-cards vs claw-lark-cards**：两者都是 OpenClaw 飞书卡片方案，**二选一，勿同时启用**。
+> - `claw-fry-cards` **伴侣插件**：钩子观测对话 + 自建卡片接管回复展示，飞书通道仍由官方插件承担；打字机为完成后分片输出，思考仅解析 `<thinking>` 标签（公开钩子拿不到原生 reasoning）
+> - `claw-lark-cards` **通道插件**：官方通道 fork + 2.0 适配，替代官方通道，卡片引擎内置于通道，支持原生 reasoning 流式
+> - 新装推荐 `claw-lark-cards`（官方通道已停更于 2026-07，未适配 OpenClaw 2.0）
 
 ### 🤖 技能 & 工具
 
