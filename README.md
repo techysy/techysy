@@ -49,6 +49,12 @@
 | [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用 |
 | [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装 |
 
+### 🌉 Agent 会话桥接
+
+| 项目 | 版本 | 说明 |
+|------|------|------|
+| [**zcode-feishu-bridge**](https://github.com/techysy/zcode-feishu-bridge) | ![Release](https://img.shields.io/github/v/release/techysy/zcode-feishu-bridge) | 🌉 ZCode 会话实时镜像到飞书流式卡片 — tail rollout 日志，零侵入零依赖，多会话并行 + 综合统计面板 |
+
 ### 🛠️ 开源工具 & 其他
 
 - [**spot-studio**](https://github.com/techysy/spot-studio) — 🚴🥾 骑行 & 徒步活动发布平台（GPX 渲染 / 海拔 / POI）
