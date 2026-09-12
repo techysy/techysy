@@ -44,7 +44,7 @@
 | 项目 | 版本 | 说明 |
 |------|------|------|
 | [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-fry-cards) | 🍟 Hermes **卡片渲染层** — 流式卡片插件，正在使用中 |
-| [**claw-fry-cards**](https://github.com/techysy/claw-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-fry-cards) | 🍤 OpenClaw **通道插件 2.0** — 官方通道 2.0 适配，fry 卡片引擎内置（原 claw-lark-cards 并入） |
+| [**claw-fry-cards**](https://github.com/techysy/claw-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-fry-cards) | 🍤 OpenClaw **通道插件 2.0** — 官方通道 2.0 适配，fry 卡片引擎内置 |
 | [**zcode-feishu-bridge**](https://github.com/techysy/zcode-feishu-bridge) | ![Release](https://img.shields.io/github/v/release/techysy/zcode-feishu-bridge) | 🌉 ZCode **单向实况桥** — 只读 rollout 推送进度 |
 
 > 🔖 **claw-fry-cards 双版本线**（原 claw-lark-cards 已并入本仓库并归档）：OpenClaw 飞书卡片方案，**二选一，勿同时启用**。
