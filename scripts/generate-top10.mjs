@@ -123,10 +123,16 @@ const FONT = '-apple-system,BlinkMacSystemFont,&quot;Segoe UI&quot;,&quot;Noto S
 const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function niceMax(v) {
-  const steps = [1, 2, 5, 10, 20, 25, 50, 100, 200, 250, 500, 1000, 2000, 5000, 10000];
-  const target = Math.max(4, (v * 1.15) / 4);
-  const step = steps.find((s) => s >= target) || Math.ceil(target / 1000) * 1000;
-  return step * 4;
+  const target = Math.max(4, v * 1.08);
+  const mults = [1, 1.5, 2, 2.5, 3, 5, 6, 10];
+  for (let k = 0; k <= 5; k++) {
+    for (const m of mults) {
+      const step = m * Math.pow(10, k);
+      if (step < 10 && !Number.isInteger(step)) continue; // 小量程保持整数刻度
+      if (step * 4 >= target) return step * 4;
+    }
+  }
+  return Math.ceil(target);
 }
 
 // Fritsch–Carlson monotone cubic -> cubic bezier path.
