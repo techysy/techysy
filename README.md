@@ -57,6 +57,7 @@
 | 项目 | 版本 | 说明 |
 |------|------|------|
 | [**hermes-skills**](https://github.com/techysy/yangyu-hermes-skills) | ![Release](https://img.shields.io/github/v/release/techysy/yangyu-hermes-skills) | 🐟 Hermes Agent 技能集合（16 个技能：Git 生命周期、飞书、TTS/STT、代理、成本管理等） |
+| [**fnos-app-dev-skill**](https://github.com/techysy/fnos-app-dev-skill) | — | 🐂 fnOS 应用开发踩坑 skill（44 篇 reference · AI Agent 可加载） |
 | [**hermes-core-fnos**](https://github.com/techysy/hermes-core-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-core-fnos) | Hermes Agent 本地内核 fnOS 应用（v1 · 已被 [hermes-core-fnos-v2](https://github.com/techysy/hermes-core-fnos-v2) 接替） |
 | [**hermes-webui-fnos**](https://github.com/techysy/hermes-webui-fnos) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-webui-fnos) | Hermes WebUI fnOS 封装（已归档） |
 
