@@ -14,7 +14,7 @@
 > 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
 > [![fnOS 版本](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
-> [![上游版本](https://img.shields.io/badge/upstream-v0.1.5--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
+> [![上游版本](https://img.shields.io/badge/upstream-v0.1.7--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
 > [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
 > [![Stars](https://img.shields.io/github/stars/techysy/deepseek-harness-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/deepseek-harness-fnos)
 
@@ -28,6 +28,26 @@
 > [![npm](https://img.shields.io/npm/v/@techysy/10router?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@techysy/10router)
 > [![Docker](https://img.shields.io/badge/Docker-ghcr.io%2Ftechysy%2F10router-2496ED?logo=docker&logoColor=white)](https://github.com/techysy/10router/pkgs/container/10router)
 > [![Stars](https://img.shields.io/github/stars/techysy/10router?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/10router)
+
+### 🥚 CreditDaddy（原 QoderDaddy）
+
+> [**CreditDaddy**](https://github.com/techysy/CreditDaddy) — AI 编程工具多账号本地管理 + 每日积分自动领取（领鸡蛋）助手
+>
+> 支持 **Qoder**（国际/国内）、**WorkBuddy**（腾讯 CodeBuddy 系）、**ZCode**（智谱 GLM / Z.ai）多账号轮询 · 设备级授权 · 每日签到领积分 · 可接入 [10Router](https://github.com/techysy/10router) 查看其他供应商额度与同步本机用量 · fnOS / Windows / macOS / Linux + CLI
+>
+> [![Release](https://img.shields.io/github/v/release/techysy/CreditDaddy?label=Release&color=2463eb)](https://github.com/techysy/CreditDaddy/releases)
+> [![npm](https://img.shields.io/npm/v/creditdaddy?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/creditdaddy)
+> [![Stars](https://img.shields.io/github/stars/techysy/CreditDaddy?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CreditDaddy)
+
+### 🖼️ ImgMark
+
+> [**ImgMark**](https://github.com/techysy/imgmark) — 批量图片水印工具：AI / SVG / PNG / JPG 水印源白底黑底自动去底转透明 PNG
+>
+> 水印**分组**（每组独立定位/间距/大小/logo 比例）· **亮度自适应黑白**（按图片明暗自动换黑/白标）· 大小基准（横竖构图同实际大小）· **方案保存**一键恢复 · 飞牛授权目录批量处理 · fnOS fpk + Windows/macOS 桌面壳 + CLI + HTTP API
+>
+> [![Release](https://img.shields.io/github/v/release/techysy/imgmark?label=Release&color=2463eb)](https://github.com/techysy/imgmark/releases)
+> [![platform](https://img.shields.io/badge/platform-fnOS%20%7C%20Windows%20%7C%20macOS-lightgrey)](https://github.com/techysy/imgmark/releases)
+> [![Stars](https://img.shields.io/github/stars/techysy/imgmark?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/imgmark)
 
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
