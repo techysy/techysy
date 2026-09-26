@@ -66,6 +66,7 @@
 | [**hermes-fry-cards**](https://github.com/techysy/hermes-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/hermes-fry-cards) | 🍟 Hermes **卡片渲染层** — 流式卡片插件，正在使用中 |
 | [**claw-fry-cards**](https://github.com/techysy/claw-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/claw-fry-cards) | 🍤 OpenClaw **通道插件 2.0** — 官方通道 2.0 适配，fry 卡片引擎内置 |
 | [**zcode-feishu-bridge**](https://github.com/techysy/zcode-feishu-bridge) | ![Release](https://img.shields.io/github/v/release/techysy/zcode-feishu-bridge) | 🌉 ZCode **单向实况桥** — 只读 rollout 推送进度 |
+| [**feige-fry-cards**](https://github.com/techysy/feige-fry-cards) | ![Release](https://img.shields.io/github/v/release/techysy/feige-fry-cards) | 🕊️ **跨 agent 战报插件** — 会话收尾摘要卡直发群（ZCode / Claude Code / Codex · 4 渠道 · 群路由 · WebUI 设置页） |
 
 > 🔖 **claw-fry-cards 双版本线**（原 claw-lark-cards 已并入本仓库并归档）：OpenClaw 飞书卡片方案，**二选一，勿同时启用**。
 > - **2.0 通道插件**（main / v2.0.0）：官方通道 fork + 2.0 适配，替代官方通道，卡片引擎内置于通道，支持原生 reasoning 流式 — **新装推荐**
