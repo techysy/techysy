@@ -60,6 +60,7 @@
 > 7 种纸张预设（A4 / 相纸 / 名片 86×54）· 300dpi 打印级输出 · 毫米级间距与页边距 · **裁切线**画在间距正中 · `--repeat` 一张卡片铺满整页（饮品卡 / 名片拆件）· 多图自动分页 · 横竖图 contain 居中 · 单一依赖 sharp，CLI 单条命令出图
 >
 > [![Release](https://img.shields.io/github/v/release/techysy/CardSheet?label=Release&color=2463eb)](https://github.com/techysy/CardSheet/releases)
+> [![npm](https://img.shields.io/npm/v/@techysy/cardsheet?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@techysy/cardsheet)
 > [![CI](https://img.shields.io/github/actions/workflow/status/techysy/CardSheet/ci.yml?branch=main&label=CI)](https://github.com/techysy/CardSheet/actions/workflows/ci.yml)
 > [![Stars](https://img.shields.io/github/stars/techysy/CardSheet?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CardSheet)
 
