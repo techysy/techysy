@@ -39,15 +39,33 @@
 > [![npm](https://img.shields.io/npm/v/creditdaddy?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/creditdaddy)
 > [![Stars](https://img.shields.io/github/stars/techysy/CreditDaddy?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CreditDaddy)
 
+---
+
+## 🎨 图像工具
+
 ### 🖼️ ImgMark
 
 > [**ImgMark**](https://github.com/techysy/imgmark) — 批量图片水印工具：AI / SVG / PNG / JPG 水印源白底黑底自动去底转透明 PNG
 >
-> 水印**分组**（每组独立定位/间距/大小/logo 比例）· **亮度自适应黑白**（按图片明暗自动换黑/白标）· 大小基准（横竖构图同实际大小）· **方案保存**一键恢复 · 飞牛授权目录批量处理 · fnOS fpk + Windows/macOS 桌面壳 + CLI + HTTP API
+> 三种水印图层任意组合（Logo 分组 · **相机参数**文字 · 白框/条幅/装裱**画框**）· **亮度自适应黑白**（按图片明暗自动换黑/白标）· 智能裁剪 + 长边上限 · **方案保存**一键恢复 · 文件夹监听绑定方案、重启自恢复 · 飞牛授权目录批量处理 · fnOS fpk + Windows/macOS 桌面壳 + CLI + HTTP API
 >
 > [![Release](https://img.shields.io/github/v/release/techysy/imgmark?label=Release&color=2463eb)](https://github.com/techysy/imgmark/releases)
 > [![platform](https://img.shields.io/badge/platform-fnOS%20%7C%20Windows%20%7C%20macOS-lightgrey)](https://github.com/techysy/imgmark/releases)
 > [![Stars](https://img.shields.io/github/stars/techysy/imgmark?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/imgmark)
+
+### 🧩 CardSheet
+
+> [**CardSheet**](https://github.com/techysy/CardSheet) — 图片拼版打印：把若干图片拼成一张可打印的大图，打印后按格裁切
+>
+> 7 种纸张预设（A4 / 相纸 / 名片 86×54）· 300dpi 打印级输出 · 毫米级间距与页边距 · **裁切线**画在间距正中 · `--repeat` 一张卡片铺满整页（饮品卡 / 名片拆件）· 多图自动分页 · 横竖图 contain 居中 · 单一依赖 sharp，CLI 单条命令出图
+>
+> [![Release](https://img.shields.io/github/v/release/techysy/CardSheet?label=Release&color=2463eb)](https://github.com/techysy/CardSheet/releases)
+> [![CI](https://img.shields.io/github/actions/workflow/status/techysy/CardSheet/ci.yml?branch=main&label=CI)](https://github.com/techysy/CardSheet/actions/workflows/ci.yml)
+> [![Stars](https://img.shields.io/github/stars/techysy/CardSheet?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CardSheet)
+
+| 项目 | 版本 | 说明 |
+|------|------|------|
+| [**web-jpg-tool**](https://github.com/techysy/web-jpg-tool) | — | 图片合并工具 |
 
 ### 🖥️ fnOS 应用（飞牛 NAS）
 
@@ -97,7 +115,6 @@
 - [**inspection-visualizer**](https://github.com/techysy/inspection-visualizer) — OCR 巡检记录管理
 - [**film-price-tracker**](https://github.com/techysy/film-price-tracker) — 🎞️ 胶卷价格追踪（OCR 截图识别 + 趋势图）
 - [**navi-bookmarks-chrome**](https://github.com/techysy/navi-bookmarks-chrome) — 运维书签导航
-- [**web-jpg-tool**](https://github.com/techysy/web-jpg-tool) — 图片合并工具
 - [**techysy.github.io**](https://github.com/techysy/techysy.github.io) — Jekyll 静态博客
 
 ---
