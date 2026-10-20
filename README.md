@@ -137,3 +137,9 @@
 
 - 📝 Blog：[shiyangyu.com](https://shiyangyu.com) · [techysy.github.io](https://techysy.github.io)
 - 🚴 Strava：[@yangyu](https://www.strava.com/athletes/yangyu)
+- ☕ 爱发电：[ifdian.net/a/yu_shiyang](https://ifdian.net/a/yu_shiyang)（欢迎 · 为我发电⚡️）
+- 📺 Bilibili：[@余师洋](https://space.bilibili.com/10419858)
+- ✈️ Telegram：[群组](https://t.me/techysy)
+- 💬 Discord：[服务器](https://discord.gg/zDWT6YKav)
+
+
