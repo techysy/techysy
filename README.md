@@ -20,9 +20,9 @@
 
 ### 🌐 10Router
 
-> [**10Router**](https://github.com/techysy/10router) — 本地 AI 路由网关 & Dashboard（9Router 精简优化版）
+> [**10Router**](https://github.com/techysy/10router) — 本地智能 AI 路由网关 & 用量仪表盘
 >
-> 40+ 上游供应商路由 · 格式翻译 · 模型 Combo / 多账号 fallback · 配额包到期优先调度 · OAuth / API-key 凭据管理 · Token 刷新 · 配额用量追踪 · 桌面客户端 · 可选云端同步
+> 100+ 供应商 · 1000+ 模型统一接入 · OpenAI / Claude 全格式双向翻译 · **RTK 智能 Token 压缩** · 多账号轮换 + 跨供应商降级链 · 渠道级智能熔断 · 配额包到期优先调度 · OAuth / API-key 凭据管理 · 用量精准计价热力图 · 跨宿主用量同步插件 · 桌面客户端 / fnOS / Docker
 >
 > [![Release](https://img.shields.io/github/v/release/techysy/10router?label=Release&color=2463eb)](https://github.com/techysy/10router/releases)
 > [![npm](https://img.shields.io/npm/v/@techysy/10router?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/@techysy/10router)
@@ -31,9 +31,9 @@
 
 ### 🥚 CreditDaddy（原 QoderDaddy）
 
-> [**CreditDaddy**](https://github.com/techysy/CreditDaddy) — AI 编程工具多账号本地管理 + 每日积分自动领取（领鸡蛋）助手
+> [**CreditDaddy**](https://github.com/techysy/CreditDaddy) — AI 编程工具 & 模型平台多账号本地管理 + 每日积分自动领取（领鸡蛋）助手
 >
-> 支持 **Qoder**（国际/国内）、**WorkBuddy**（腾讯 CodeBuddy 系）、**ZCode**（智谱 GLM / Z.ai）多账号轮询 · 设备级授权 · 每日签到领积分 · 可接入 [10Router](https://github.com/techysy/10router) 查看其他供应商额度与同步本机用量 · fnOS / Windows / macOS / Linux + CLI
+> 支持 **Qoder**（国际/国内）、**WorkBuddy**（腾讯 CodeBuddy 系）、**ZCode**（智谱 GLM / Z.ai）、**mirasim**、**妙手**（美团 CatPaw）、**Trae**、**MiniMax**、**ModelScope**、**豆包 Doubao**、**讯飞 Loomy** 十条产品线多账号轮询 · 网页会话免费额度捕获（Token Harbor / 小米 MiMo / River / LongCat 等）· 设备级授权 · 每日签到领积分 · 可接入 [10Router](https://github.com/techysy/10router) 查看其他供应商额度与同步本机用量 · fnOS / Windows / macOS / Linux + CLI
 >
 > [![Release](https://img.shields.io/github/v/release/techysy/CreditDaddy?label=Release&color=2463eb)](https://github.com/techysy/CreditDaddy/releases)
 > [![npm](https://img.shields.io/npm/v/creditdaddy?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/creditdaddy)
