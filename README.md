@@ -7,16 +7,16 @@
 
 ## 🚀 核心项目 / Featured Projects
 
-### 🐋 DeepSeek Harness (dsh)
+### 🥚 CreditDaddy
 
-> [**DeepSeek Harness fnOS)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek官方 Agent 浏览器 UI 的 fnOS 应用
+> [**CreditDaddy**](https://github.com/techysy/CreditDaddy) — AI 编程工具 & 模型平台多账号本地管理 + 每日积分自动领取（领鸡蛋）助手
 >
-> 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
+> 支持 **Qoder**（国际/国内）、**WorkBuddy**（腾讯 CodeBuddy 系）、**ZCode**（智谱 GLM / Z.ai）、**mirasim**、**妙手**（美团 CatPaw）、**Trae**、**MiniMax**、**ModelScope**、**豆包 Doubao**、**讯飞 Loomy** 十条产品线多账号轮询 · 网页会话免费额度捕获（Token Harbor / 小米 MiMo / River / LongCat 等）· 设备级授权 · 每日签到领积分 · 可接入 [10Router](https://github.com/techysy/10router) 查看其他供应商额度与同步本机用量 · fnOS / Windows / macOS / Linux + CLI
 >
-> [![fnOS 版本](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
-> [![上游版本](https://img.shields.io/badge/upstream-v0.2.0--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
-> [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
-> [![Stars](https://img.shields.io/github/stars/techysy/deepseek-harness-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/deepseek-harness-fnos)
+> [![Release](https://img.shields.io/github/v/release/techysy/CreditDaddy?label=Release&color=2463eb)](https://github.com/techysy/CreditDaddy/releases)
+> [![npm](https://img.shields.io/npm/v/creditdaddy?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/creditdaddy)
+> [![CI](https://img.shields.io/github/actions/workflow/status/techysy/CreditDaddy/ci.yml?branch=main&label=CI)](https://github.com/techysy/CreditDaddy/actions/workflows/ci.yml)
+> [![Stars](https://img.shields.io/github/stars/techysy/CreditDaddy?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CreditDaddy)
 
 ### 🌐 10Router
 
@@ -29,15 +29,16 @@
 > [![Docker](https://img.shields.io/badge/Docker-ghcr.io%2Ftechysy%2F10router-2496ED?logo=docker&logoColor=white)](https://github.com/techysy/10router/pkgs/container/10router)
 > [![Stars](https://img.shields.io/github/stars/techysy/10router?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/10router)
 
-### 🥚 CreditDaddy（原 QoderDaddy）
+### 🐋 DeepSeek Harness (dsh)
 
-> [**CreditDaddy**](https://github.com/techysy/CreditDaddy) — AI 编程工具 & 模型平台多账号本地管理 + 每日积分自动领取（领鸡蛋）助手
+> [**DeepSeek Harness fnOS)**](https://github.com/techysy/deepseek-harness-fnos) — DeepSeek官方 Agent 浏览器 UI 的 fnOS 应用
 >
-> 支持 **Qoder**（国际/国内）、**WorkBuddy**（腾讯 CodeBuddy 系）、**ZCode**（智谱 GLM / Z.ai）、**mirasim**、**妙手**（美团 CatPaw）、**Trae**、**MiniMax**、**ModelScope**、**豆包 Doubao**、**讯飞 Loomy** 十条产品线多账号轮询 · 网页会话免费额度捕获（Token Harbor / 小米 MiMo / River / LongCat 等）· 设备级授权 · 每日签到领积分 · 可接入 [10Router](https://github.com/techysy/10router) 查看其他供应商额度与同步本机用量 · fnOS / Windows / macOS / Linux + CLI
+> 本地常驻服务 · DeepSeek 官方 Agent 浏览器界面 · 插件化设计 · 局域网 + FN Connect 远程访问
 >
-> [![Release](https://img.shields.io/github/v/release/techysy/CreditDaddy?label=Release&color=2463eb)](https://github.com/techysy/CreditDaddy/releases)
-> [![npm](https://img.shields.io/npm/v/creditdaddy?label=npm&color=CB3837&logo=npm&logoColor=white)](https://www.npmjs.com/package/creditdaddy)
-> [![Stars](https://img.shields.io/github/stars/techysy/CreditDaddy?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/CreditDaddy)
+> [![fnOS 版本](https://img.shields.io/github/v/release/techysy/deepseek-harness-fnos?label=fnOS&color=0A5D9C)](https://github.com/techysy/deepseek-harness-fnos/releases)
+> [![上游版本](https://img.shields.io/badge/upstream-v0.2.0--rc.2-1E88E5?logo=deepseek&logoColor=white&label=DeepSeek%20Harness)](https://github.com/deepseek-ai/deepseek-harness)
+> [![离线打包](https://img.shields.io/badge/offline-免联网-2E7D32)](https://github.com/techysy/deepseek-harness-fnos)
+> [![Stars](https://img.shields.io/github/stars/techysy/deepseek-harness-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/deepseek-harness-fnos)
 
 ---
 
@@ -52,6 +53,19 @@
 > [![Release](https://img.shields.io/github/v/release/techysy/imgmark?label=Release&color=2463eb)](https://github.com/techysy/imgmark/releases)
 > [![platform](https://img.shields.io/badge/platform-fnOS%20%7C%20Windows%20%7C%20macOS-lightgrey)](https://github.com/techysy/imgmark/releases)
 > [![Stars](https://img.shields.io/github/stars/techysy/imgmark?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/imgmark)
+
+### 🔬 SpektraLab for fnOS
+
+> [**SpektraLab for fnOS**](https://github.com/techysy/spektralab-fnos) — 把 SpektraLab 胶片暗房引擎装成飞牛 fnOS 原生应用：RAW 进、胶片模拟 + 放大印相出，核显加速，浏览器直接用
+>
+> 无 Docker · 核显直通 Mesa ANV（Intel UHD 730 实测）· 无核显自动回退 lavapipe · fnOS 统一网关窗口（NAS 登录态 + 逐用户 ACL）· 授权目录语义路径转换 · sidecar 参数随照片保存、重开即还原 · 渲染三档 live / preview / full，进度经 SSE 实时推送 · 独立 Docker 镜像（非 fnOS 场景）
+>
+> [![Release](https://img.shields.io/github/v/release/techysy/spektralab-fnos?label=%E7%89%88%E6%9C%AC&color=2563eb)](https://github.com/techysy/spektralab-fnos/releases/latest)
+> [![Downloads](https://img.shields.io/github/downloads/techysy/spektralab-fnos/total?label=%E4%B8%8B%E8%BD%BD&color=16a34a)](https://github.com/techysy/spektralab-fnos/releases)
+> [![Platform](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-%E9%A3%9E%E7%89%9B%20fnOS%20%28x86%29-6b7280)](https://github.com/techysy/spektralab-fnos/releases)
+> [![Upstream](https://img.shields.io/badge/%E4%B8%8A%E6%B8%B8-SpektraLab-4d6bfe)](https://github.com/JamesQiu2005/SpektraLab)
+> [![Vulkan](https://img.shields.io/badge/%E6%B8%B2%E6%9F%93-Vulkan%20%28ANV%20%7C%20lavapipe%29-a91e4e)](https://github.com/techysy/spektralab-fnos)
+> [![Stars](https://img.shields.io/github/stars/techysy/spektralab-fnos?label=Stars&color=FFD700&logo=github)](https://github.com/techysy/spektralab-fnos)
 
 ### 🧩 CardSheet
 
